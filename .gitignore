@@ -1,0 +1,41 @@
+# ── Java / Maven ─────────────────────────────────────────────
+target/
+*.class
+*.jar
+*.war
+*.ear
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# ── Spring Boot ───────────────────────────────────────────────
+backend/src/main/resources/application-local.properties
+
+# ── Node / React ─────────────────────────────────────────────
+node_modules/
+dist/
+frontend/dist/
+.vite/
+
+# ── Environment / Secrets ────────────────────────────────────
+.env
+.env.local
+.env.production
+*.env
+
+# ── IDE ───────────────────────────────────────────────────────
+.idea/
+*.iml
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ── OS ────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Logs ──────────────────────────────────────────────────────
+*.log
+logs/
